@@ -43,8 +43,11 @@ gem 'jquery-rails' # => 4.4.0v
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-# using awesome icons
+# => using awesome icons
 gem 'font-awesome-rails' # => 4.7.0.7
+
+# => is a flexible authetication solution
+gem 'devise' # => 4.7.3
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
