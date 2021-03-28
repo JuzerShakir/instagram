@@ -8,8 +8,8 @@
 
     <div class="col-md-8 basic-info">
       <div class="user-wrapper">
-        <h2 class="username">luanotes</h2>
-        <a class="edit-profile">
+        <h2 class="username"><%= current_user.username %></h2>
+        <a class="edit-profile" href="<%= edit_user_path(current_user) %>">
           <button>Edit Profile</button>
         </a>
       </div>
@@ -18,9 +18,8 @@
         <li><span>195</span> followers</li>
         <li><span>345</span> following</li>
       </ul>
-      <h2 class="name">Luan Nguyen</h2>
-      <a class="website">luanotes.com</a>
-    </div>
+      <h2 class="name"><%= current_user.name %></h2>
+      <%=link_to current_user.website, current_user.website, class:  'website' %>    </div>
   </div>
 
   <div class="user-tabs">
