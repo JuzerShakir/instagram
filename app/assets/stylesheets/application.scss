@@ -52,3 +52,15 @@
     color: #999;
   }
 }
+
+.form-upload{
+  border: 1px solid #dbdbdb;
+  height: auto;
+  margin: auto 160px;
+  padding: 30px;
+  border-radius: 3px;
+
+  input[type='text']{
+    width: 100%;
+  }
+}
