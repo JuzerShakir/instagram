@@ -35,9 +35,16 @@
     font-size: 14px;
     padding: 4px 10px;
     font-weight: 500;
+    &:hover{
+      cursor: pointer;
+      font-weight: 800;
+      background-color: lightgrey;
+    }
   }
+
   ul.posts{
     padding-left: 0;
+    margin-left: 0;
     > li{
       display: inline;
       padding-right: 40px;
@@ -63,7 +70,8 @@
 .user-tabs{
   border-top: 1px solid #efefef;
   display: flex;
-  justify-content: center;a.tab{
+  justify-content: center;
+  a.tab{
     height: 35px;
     margin-right: 50px;
     line-height: 45px;
@@ -88,12 +96,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 20px;.wrapper{
-    width: 280px;
-    height: 280px;
+  margin: 0 20px;
+
+.wrapper{
     margin: 15px;
     img{
-      width: 100%;
+      width: 280px;
+      height: 300px;
       border-radius: 4%;
     }
   }
@@ -129,13 +138,18 @@
     }
   }
   .nav-pills .nav-link.active{
-    border-left: 2px solid;
-    font-weight: 600;
+    background-color: transparent;
+    border-left: 3px solid black;
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
   }
 }
 
 .form-edit-user{
-  padding: 30px 100px 10px 50px;.form-group, input{
+  padding: 30px 100px 10px 50px;
+
+  .form-group, input{
     font-size: 14px;
     color: black;
   }
