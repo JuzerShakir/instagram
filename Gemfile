@@ -49,6 +49,9 @@ gem 'font-awesome-rails' # => 4.7.0.7
 # => is a flexible authetication solution
 gem 'devise' # => 4.7.3
 
+# => for pagination of posts
+gem 'kaminari' # 1.2.1v
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
