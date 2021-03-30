@@ -64,6 +64,18 @@
     width: 100%;
   }
 }
+/* makes width of description box in post form bigger in home page */
+#post_description {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.btn{
+  &:hover{
+    font-weight: bold;
+  }
+}
 
 .posts{
   margin: 50px 180px 10px;
