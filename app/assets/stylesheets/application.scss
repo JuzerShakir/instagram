@@ -99,9 +99,11 @@
       }
       .username{
         padding-top: 13px;
-        color: #262626;
         font-size: 14px;
         font-weight: 600;
+        a{
+          color: #262626;
+        }
       }
     }
 

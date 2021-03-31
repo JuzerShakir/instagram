@@ -22,14 +22,28 @@
       <div class="user">
 
         <div class="avatar">
+          <!-- will show avatar if it is present -->
           <% if post.user.avatar.attached? %>
-            <%= link_to user_path(post.user) do %>
+          <!-- user profile links only clickable after signing in -->
+            <% if user_signed_in? %>
+              <%= link_to user_path(post.user) do %>
+                <%= image_tag post.user.avatar %>
+              <% end %>
+            <% else %>
               <%= image_tag post.user.avatar %>
             <% end %>
           <% end %>
         </div>
 
-        <%= link_to post.user.username, user_path(post.user), class: 'username' %>
+        <!-- user profile links only clickable after signing in -->
+        <div class = "username">
+          <% if user_signed_in? %>
+            <%= link_to post.user.username, user_path(post.user) %>
+          <% else %>
+              <%= post.user.username %>
+          <% end %>
+        </div>
+
       </div>
 
       <!-- Image uploaded by user -->
