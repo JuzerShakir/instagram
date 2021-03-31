@@ -13,7 +13,6 @@ class UsersController < ApplicationController
     redirect_to current_user
   end
 
-
   private
     def user_params
       params.require(:user).permit(:avatar, :username, :name, :website,
