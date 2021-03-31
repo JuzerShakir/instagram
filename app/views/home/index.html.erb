@@ -1,4 +1,4 @@
-<% if current_user != nil %>
+<% if user_signed_in? %>
   <%= form_for Post.new do |f| %>
     <div class="form-group">
       <%= f.text_field :description %>
