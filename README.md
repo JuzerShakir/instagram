@@ -27,7 +27,7 @@ Following gems were installed in these versions:
 |     SQLite      |        'sqlite3'      |   **~>1.3.6**  | *Use sqlite3 as the database for Active Record*  |
 |    Bootstrap    |      'bootstrap'      |   **~>4.1.1**  |                *For CSS Styling*                 |
 |     Devise      |       'devise'        |    **4.7.3**   |             *For User Authentication*            |
-|  Jquery Rails   |     'jquery-rails'    |    **4.4.0**   |     *Bootstrap JavaScript depends on jQuery*     |
+|  Jquery Rails   |     'jquery-rails'    |    **4.4.0**   |       *Use jquery as the JavaScript library*     |
 |   Font Awesome  | 'font-awesome-rails'  |   **4.7.0.7**  |             *Use Font Awesome icon sets*         |
 |     Kaminari    |       'kaminari'      |    **1.2.1**   |             *Use in pagination of posts*         |
 
