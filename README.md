@@ -62,4 +62,4 @@ rails s
 ```
 
 To see this web-app up and running without executing above commands locally,
-I have deployed it on [Heroku](https://js-cogoport.herokuapp.com/).
+I have deployed it on [Heroku](https://js-instagram.herokuapp.com/).
