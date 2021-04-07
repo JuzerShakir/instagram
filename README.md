@@ -1,4 +1,4 @@
-# Project: Instagram Clone
+# Project: Instagram
 > *An instagram clone web-app built on rails.*
 
 ----
@@ -20,16 +20,16 @@ This web-app must accomplish the following:
 
 Following gems were installed in these versions:
 
-|  **Gem Names**  |         **Gem**       | **Version** |                      **Use**                     |
-| :------------:  |     :------------:    | :---------: |                    :---------:                   |
-|      Rails      |        'rails'        |  **5.2.1**  | *Use for executing and rendering web-app and interact with database*  |
-|   Postgresql    |          'pg'         |  **1.2.3**  | *Use postgres as the database for Active Record* |
-|     SQLite      |        'sqlite3'      |  **~> 1.3.6**  | *Use sqlite3 as the database for Active Record*  |
-|    Bootstrap    |      'bootstrap'      |  **~> 4.1.1**  |                *For CSS Styling*                 |
-|     Devise      |       'devise'        |  **4.7.3**  |             *For User Authentication*            |
-|  Jquery Rails   |     'jquery-rails'    |  **4.4.0**  |     *Bootstrap JavaScript depends on jQuery*     |
-|   Font Awesome  | 'font-awesome-rails'  |  **4.7.0.7**  |             *Use Font Awesome icon sets*         |
-|     Kaminari    |       'kaminari'      |  **1.2.1**  |             *Use in pagination of posts*         |
+|  **Gem Names**  |         **Gem**       |   **Version**  |                      **Use**                     |
+| :------------:  |     :------------:    |   :---------:  |                    :---------:                   |
+|      Rails      |        'rails'        |    **5.2.1**   |    *Use for executing and rendering web-app*     |
+|   Postgresql    |          'pg'         |    **1.2.3**   | *Use postgres as the database for Active Record* |
+|     SQLite      |        'sqlite3'      |   **~>1.3.6**  | *Use sqlite3 as the database for Active Record*  |
+|    Bootstrap    |      'bootstrap'      |   **~>4.1.1**  |                *For CSS Styling*                 |
+|     Devise      |       'devise'        |    **4.7.3**   |             *For User Authentication*            |
+|  Jquery Rails   |     'jquery-rails'    |    **4.4.0**   |     *Bootstrap JavaScript depends on jQuery*     |
+|   Font Awesome  | 'font-awesome-rails'  |   **4.7.0.7**  |             *Use Font Awesome icon sets*         |
+|     Kaminari    |       'kaminari'      |    **1.2.1**   |             *Use in pagination of posts*         |
 
 
 ----
