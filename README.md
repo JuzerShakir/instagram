@@ -31,6 +31,8 @@ Following gems were installed in these versions:
 |   Font Awesome  | 'font-awesome-rails'  |   **4.7.0.7**  |             *Use Font Awesome icon sets*         |
 |     Kaminari    |       'kaminari'      |    **1.2.1**   |             *Use in pagination of posts*         |
 
+You can find all gems in this [Gemfile](https://github.com:JuzerShakir/instagram/blob/master/Gemfile).
+
 
 ----
 
