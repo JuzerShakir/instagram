@@ -7,7 +7,7 @@ ruby '2.4.10'
 gem 'rails', '5.2.1'
 # Use sqlite3 as the database for Active Record
 # => degraded from default 1.4.2v to resolve error of loading in Active Record Adapter
-gem 'sqlite3', '~> 1.3.6' # => using 1.3.13v
+#gem 'sqlite3', '~> 1.3.6' # => using 1.3.13v
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
