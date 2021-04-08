@@ -34,8 +34,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# for database
 gem 'pg' # => 1.2.3v
 
+# for styling
 gem 'bootstrap', '~> 4.1.1' # => 4.1.3
 # => Bootstrap JavaScript depends on jQuery.
 gem 'jquery-rails' # => 4.4.0v
